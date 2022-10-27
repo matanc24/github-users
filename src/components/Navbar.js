@@ -6,7 +6,6 @@ const Navbar = () => {
   const { isAuthenticated, loginWithRedirect, logout, user, isLoading } =
     useAuth0();
   const isUser = isAuthenticated && user;
-  console.log(isUser);
 
   return (
     <Wrapper>
